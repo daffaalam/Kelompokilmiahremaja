@@ -19,7 +19,6 @@ public class CustomListAdafter extends ArrayAdapter<String> {
     private final String[] subtitle;
     private final Integer[] gambarsahabat;
 
-
     public CustomListAdafter(Activity contex, String[] namasahabat, String[] subtitle, Integer[] gambarsahabat) {
         super(contex, R.layout.list_item, namasahabat);
         this.contex = contex;
